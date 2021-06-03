@@ -1,7 +1,22 @@
 ---
   - name: My machine
     hosts: all
+
+    vars:
+      mas_installed_app_ids:
+        - 497799835 # Xcode
+
+      homebrew_installed_packages:
+        - ssh-copy-id
+        - pv
+
+      homebrew_cask_apps:
+        - docker
+        - firefox
+        - google-chrome
+        - vlc
+
     roles:
-      # - common
       - dev
-      # - productivity
+      - geerlingguy.mac.homebrew
+      - geerlingguy.mac.mas

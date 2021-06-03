@@ -1,1 +1,6 @@
-- src: geerlingguy.mac.mas
+---
+roles:
+  - name: elliotweiser.osx-command-line-tools
+collections:
+  - name: geerlingguy.mac
+    roles:
