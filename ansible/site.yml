@@ -2,6 +2,6 @@
   - name: My machine
     hosts: all
     roles:
-      - common
+      # - common
       - dev
-      - productivity
+      # - productivity

@@ -14,21 +14,21 @@
         - bat
         - bfg
         - exa
-        - circleci
-        - doctl
+        # - circleci
+        # - doctl
         - git
         - gnupg
         - jsonlint
-        - hub
+        # - hub
         - fzf
         - mosh
-        - mtr
+        # - mtr
         - nmap
-        - pinentry-mac
+        # - pinentry-mac
         - pwgen
-        - sloccount
-        - siege
-        - telnet
+        # - sloccount
+        # - siege
+        # - telnet
         - ripgrep
         - yamllint
 
@@ -37,13 +37,13 @@
       name:
         - docker
         - font-source-code-pro
-        - keybase
+        # - keybase
         - ngrok
-        - postico
+        # - postico
         - visual-studio-code
 
   - name: Ensure python and node version managers are installed
     homebrew:
       name:
         - pyenv
-        - n
+        # - n
